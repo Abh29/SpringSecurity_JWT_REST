@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:postgresql://{host}:{port}/{db_name}
+spring.datasource.username={db_user}
+spring.datasource.password={db_secret}
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+#enable debugging/tracing
+debug=false
+
+application_secret={the_application_secret}
